@@ -17,7 +17,6 @@ function App() {
     setMovie(data)
   }
   //-------------------------[ Function that uses async-await to fetch movie data]
-
   useEffect(()=>{
     getMovie("Clueless")
   },[])
